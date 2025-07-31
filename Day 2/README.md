@@ -53,5 +53,5 @@ flutter run
 ## 📚 Learnings
 
 - How to use **MaterialApp**, **Scaffold**, and basic **widgets**
-- How to set up **routes** and navigate between screens
+- How to set up **routes** and navigate b/w screens
 - How to integrate and use **custom packages** like `google_nav_bar`
