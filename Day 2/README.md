@@ -1,97 +1,57 @@
-<<<<<<< HEAD
-# daytwo
+# Day 2 – Flutter Bootcamp: Multi-Screen Navigation App 🚀
 
-A new Flutter project.
+This is a basic Flutter application built during Day 2 of my Flutter Bootcamp. The app demonstrates **multi-screen navigation** using **named routes**, and includes a simple **bottom navigation bar** using the `google_nav_bar` package.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Three screens:
+  - **HomePage**
+  - **SecondScreen**
+  - **MyBuffer**
+- Navigation using **named routes**
+- A button on each screen that takes you to the next screen
+- A bottom navigation bar (GNav) with icons and labels
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# 🌀 Flutter Bootcamp – Projects Repository
-
-Welcome to my **Flutter Bootcamp** journey!
-This repository contains all the mini-projects and practice code developed during my learning process, starting from the basics of Flutter and Dart.
-
----
-
-## 📚 About the Bootcamp
-
-This bootcamp focuses on building a strong foundation in Flutter app development. Each day includes hands-on mini-projects that help in understanding widgets, state management, UI design, and navigation.
-
----
-
-## 🚀 What You'll Find Here
-
-* ✅ Day-wise project folders (e.g., `Day 1/`, `Day 2/`, etc.)
-* ✅ Well-structured Flutter apps with clean and readable code
-* ✅ Assets and required setup files
-* ✅ ReadMe files with instructions for each day/project
-
----
-
-## 📁 Folder Structure Example
+## 📁 File Structure
 
 ```
-Flutter-Bootcamp/
-├── Day 1/
-│   ├── lib/
-│   │   └── main.dart
-│   ├── assets/
-│   ├── pubspec.yaml
-│   └── README.md
-├── Day 2/
-│   └── ...
-└── README.md
+
+lib/
+├── main.dart         # Sets up routing and app entry point
+├── buffer.dart       # MyBuffer screen (third screen)
+├── medoc.dart        # SecondScreen (second screen)
+├── third.dart        # Contains MyBuffer widget
+
 ```
 
----
+## 🛠️ Packages Used
 
-## 🛠️ Tools & Technologies Used
+- [`google_nav_bar`](https://pub.dev/packages/google_nav_bar): For the bottom navigation bar
 
-* Flutter SDK
-* Dart Programming Language
-* Android Studio / Visual Studio Code
-* Git & GitHub
+## 🚀 How to Run
 
----
+1. Make sure Flutter is installed on your machine.
+2. Clone this repository:
+```
 
-## 💡 Getting Started
+git clone [https://github.com/your-username/Flutter-Bootcamp.git](https://github.com/your-username/Flutter-Bootcamp.git)
 
-To run any project from this repository:
+```
+3. Navigate into the project directory:
+```
 
-1. Clone the repository
-2. Navigate to the specific day's folder (`cd Day 1/`)
-3. Run:
+cd Flutter-Bootcamp
 
-   ```bash
-   flutter pub get
-   flutter run
-   ```
+```
+4. Run the app:
+```
 
-Make sure to check the `pubspec.yaml` file for asset declarations before running the app.
+flutter run
 
----
+```
 
-## 📈 Progress Tracking
+## 📚 Learnings
 
-| Day | Topic Covered                | Project Name |
-| --- | ---------------------------- | ------------ |
-| 1   | Stateless & Stateful Widgets | Counter App  |
-| 2   | Coming Soon                  | —            |
-| ... | —                            | —            |
-
----
-
-## 📌 Purpose
-
-This repository serves as a portfolio of my Flutter learning journey and a reference for anyone starting out with mobile app development using Flutter.
->>>>>>> 6981468e1dab27786c8fd5f1cbabe9be0a312792
+- How to use **MaterialApp**, **Scaffold**, and basic **widgets**
+- How to set up **routes** and navigate between screens
+- How to integrate and use **custom packages** like `google_nav_bar`
