@@ -13,7 +13,7 @@ This bootcamp focuses on building a strong foundation in Flutter app development
 
 ## 🚀 What You'll Find Here
 
-- ✅ Day-wise project folders (`Day 1/`, `Day 2/`, etc.)
+- ✅ Day-wise project folders (`Day 1`, `Day 2`, etc.)
 - ✅ Clean and modular Flutter apps
 - ✅ Assets and required setup files
 - ✅ ReadMe files with instructions for each day's project
@@ -25,17 +25,17 @@ This bootcamp focuses on building a strong foundation in Flutter app development
 ```
 
 Flutter-Bootcamp/
-├── Day 1/
+├── Day 1
 │   ├── lib/
 │   └── pubspec.yaml
-├── Day 2/
+├── Day 2
 │   ├── lib/
 │   │   ├── main.dart
 │   │   ├── medoc.dart
 │   │   ├── buffer.dart
 │   │   └── third.dart
 │   └── pubspec.yaml
-├── Day 3/
+├── Day 3
 │   └── ...
 └── README.md
 
