@@ -36,7 +36,10 @@ Flutter-Bootcamp/
 │   │   └── third.dart
 │   └── pubspec.yaml
 ├── Day 3
-│   └── ...
+│   ├── lib/
+│   │   ├── main.dart
+│   │   └── home.dart
+│   └── pubspec.yaml
 └── README.md
 
 ````
@@ -66,7 +69,7 @@ git clone https://github.com/your-username/Flutter-Bootcamp.git
 2. Navigate to the desired day's folder:
 
 ```bash
-cd Flutter-Bootcamp/Day\ 2/
+cd Flutter-Bootcamp/Day\ 3/
 ```
 
 3. Get dependencies:
@@ -85,12 +88,12 @@ flutter run
 
 ## 📈 Progress Tracking
 
-| Day | Topics Covered                              | Project Description                    |
-| --- | ------------------------------------------- | -------------------------------------- |
-| 1   | Stateless & Stateful Widgets                | Simple Counter App                     |
-| 2   | Multi-screen navigation, Named Routes, GNav | App with 3 pages and bottom navigation |
-| 3   | —                                           | —                                      |
-| 4   | —                                           | —                                      |
+| Day | Topics Covered                                                | Project Description                    |
+| --- | ------------------------------------------------------------- | -------------------------------------- |
+| 1   | Stateless & Stateful Widgets                                  | Simple Counter App                     |
+| 2   | Multi-screen navigation, Named Routes, GNav                   | App with 3 pages and bottom navigation |
+| 3   | ThemeData, TextTheme, Flexible widgets, UI layout with Column | Themed UI with two styled containers   |
+| 4   | —                                                             | —                                      |
 
 ---
 
@@ -98,3 +101,5 @@ flutter run
 
 This repository serves as a portfolio of my Flutter learning journey.
 It's also a handy reference for anyone who wants to learn Flutter through hands-on mini-projects.
+
+---
