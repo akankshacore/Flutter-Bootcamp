@@ -1,16 +1,57 @@
-# day1
+### 📁 Folder Structure
 
-A new Flutter project.
+```
+Day 1/
+├── lib/
+│   └── main.dart
+├── assets/
+│   └── leon.jpeg
+├── pubspec.yaml
+└── README.md
+```
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### 🛠️ Tools & Technologies Used
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter
+* Dart
+* Android Studio / Visual Studio Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔧 How to Run
+
+1. Clone this repository
+2. Navigate to the `Day 1/` directory
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+4. Verify that `assets/leon.jpeg` exists and is declared in `pubspec.yaml`
+5. Launch the app:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+### 📦 Asset Declaration
+
+Ensure the following is added to your `pubspec.yaml` file:
+
+```yaml
+flutter:
+  assets:
+    - assets/leon.jpeg
+```
+
+---
+
+### ✅ Day 1 Summary
+
+Completed a basic counter app using Flutter and Dart, applying `StatefulWidget` to manage UI changes and user interaction.
+
+---
