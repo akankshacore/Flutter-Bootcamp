@@ -6,7 +6,7 @@ A simple **Myntra-inspired shopping app** built with **Flutter**, featuring a cl
 
 | Home Page                            | Navigation Drawer                        | Cart Page                            |
 | ------------------------------------ | ---------------------------------------- | ------------------------------------ |
-| ![Home](assets/screenshots/home.jpg) | ![Drawer](assets/screenshots/drawer.jpg) | ![Cart](assets/screenshots/cart.jpg) |
+| ![Home](assets/home.jpg) | ![Drawer](assets/drawer.jpg) | ![Cart](assets/cart.jpg) |
 
 ## 🚀 Features
 
