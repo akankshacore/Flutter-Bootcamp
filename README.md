@@ -1,6 +1,6 @@
 # 🌀 Flutter Bootcamp – Projects Repository
 
-Welcome to my **Flutter Bootcamp** journey!  
+Welcome to my **Flutter Bootcamp** journey!
 This repository contains all the mini-projects and practice code developed during my learning process, starting from the basics of Flutter and Dart.
 
 ---
@@ -13,17 +13,16 @@ This bootcamp focuses on building a strong foundation in Flutter app development
 
 ## 🚀 What You'll Find Here
 
-- ✅ Day-wise project folders (`Day 1`, `Day 2`, etc.)
-- ✅ Clean and modular Flutter apps
-- ✅ Assets and required setup files
-- ✅ ReadMe files with instructions for each day's project
+* ✅ Day-wise project folders (`Day 1`, `Day 2`, etc.)
+* ✅ Clean and modular Flutter apps
+* ✅ Assets and required setup files
+* ✅ ReadMe files with instructions for each day's project
 
 ---
 
 ## 📁 Folder Structure Example
 
 ```
-
 Flutter-Bootcamp/
 ├── Day 1
 │   ├── lib/
@@ -40,19 +39,33 @@ Flutter-Bootcamp/
 │   │   ├── main.dart
 │   │   └── home.dart
 │   └── pubspec.yaml
+├── Myntra-Clone
+│   ├── assets/
+│   ├── lib/
+│   │   ├── components/
+│   │   │   ├── bottom_nav_bar.dart
+│   │   │   └── clothes_tile.dart
+│   │   ├── models/
+│   │   │   └── clothes.dart
+│   │   ├── pages/
+│   │   │   ├── intro_page.dart
+│   │   │   ├── home_page.dart
+│   │   │   ├── shop_page.dart
+│   │   │   ├── cart_page.dart
+│   │   │   └── main.dart
+│   └── pubspec.yaml
 └── README.md
-
-````
+```
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-- Flutter SDK  
-- Dart Programming Language  
-- Visual Studio Code / Android Studio  
-- Git & GitHub  
-- Pub.dev Packages (e.g., `google_nav_bar`)  
+* Flutter SDK
+* Dart Programming Language
+* Visual Studio Code / Android Studio
+* Git & GitHub
+* Pub.dev Packages (e.g., `google_nav_bar`)
 
 ---
 
@@ -64,12 +77,12 @@ To run any project from this repository:
 
 ```bash
 git clone https://github.com/your-username/Flutter-Bootcamp.git
-````
+```
 
-2. Navigate to the desired day's folder:
+2. Navigate to the desired project's folder:
 
 ```bash
-cd Flutter-Bootcamp/Day\ 3/
+cd Flutter-Bootcamp/Myntra-Clone/
 ```
 
 3. Get dependencies:
@@ -88,12 +101,12 @@ flutter run
 
 ## 📈 Progress Tracking
 
-| Day | Topics Covered                                                | Project Description                    |
-| --- | ------------------------------------------------------------- | -------------------------------------- |
-| 1   | Stateless & Stateful Widgets                                  | Simple Counter App                     |
-| 2   | Multi-screen navigation, Named Routes, GNav                   | App with 3 pages and bottom navigation |
-| 3   | ThemeData, TextTheme, Flexible widgets, UI layout with Column | Themed UI with two styled containers   |
-| 4   | —                                                             | —                                      |
+| Day          | Topics Covered                                                | Project Description                    |
+| ------------ | ------------------------------------------------------------- | -------------------------------------- |
+| 1            | Stateless & Stateful Widgets                                  | Simple Counter App                     |
+| 2            | Multi-screen navigation, Named Routes, GNav                   | App with 3 pages and bottom navigation |
+| 3            | ThemeData, TextTheme, Flexible widgets, UI layout with Column | Themed UI with two styled containers   |
+| 4            | Grid/ListView, Models, Bottom Nav Bar, Assets, State Mgmt     | A mini Myntra-style shopping app       |
 
 ---
 
